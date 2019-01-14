@@ -1,0 +1,36 @@
+body{
+    background-color: #474954;
+}
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: #A9B3CE;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #7CDEDC;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    
+}
+
+button:hover{
+    background-color: #7CDEDC;
+}
+#output{
+    height: 45px;
+    border-radius: 25px;
+    padding-left: 12px;
+    width: 142px;
+    background-color: #7284A8;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #7CDEDC;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+.operation,#clear{
+    background-color: #7284A8;
+}

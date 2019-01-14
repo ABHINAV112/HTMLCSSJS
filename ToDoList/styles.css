@@ -1,0 +1,141 @@
+body{
+    background-color:#000;
+    font-family: 'Staatliches', cursive;
+    font-weight: 300;
+}
+
+header{
+    border-style: solid; 
+    border-width:  3px;
+    border-color: #DCEDFF;
+    background-color: #505A5B;
+    padding: 3px;
+    overflow: auto;
+    border-radius: 10px;
+    /*used for spacing between sections*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px; 
+}
+header h1{
+    color: #DCEDFF;
+    align-self: center;
+    text-align: center;
+
+}
+#task{
+    width: 60%;
+    height: 25px;
+    float: left;
+    overflow: auto;
+    border-radius: 10px;
+    padding-left: 7px;
+    background-color: #343F3E;
+    color: #DCEDFF;
+    border-style: solid; 
+    border-width:  3px;
+    border-color: #DCEDFF;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    padding-left: 5%; 
+}
+#button1{
+    /* float: right; */
+    width: 8%;
+    height: 31px;
+    border-radius: 10px;
+    background-color: #343F3E;
+    color: #DCEDFF;
+    font-size : 20px; 
+    border-style: solid; 
+    border-width:  3px;
+    border-color: #DCEDFF;
+    margin-left: -7%;
+    margin-right: 15%;
+    margin-bottom: 5px; 
+}
+#button1:hover{
+    background-color: #DCEDFF;
+    color: #343F3E;
+    border-color: #343F3E;
+}
+
+.toDo{
+    border-style: solid; 
+    border-width:  3px;
+    border-color: #DCEDFF;
+    background-color: #8F91A2;
+    border-radius: 10px;
+    color: #DCEDFF;
+    margin-bottom: 30px;
+}
+
+.element{
+    border-style: solid; 
+    border-width:  3px;
+    border-color: #DCEDFF;
+    border-radius: 10px;
+    width: 80%;
+    height: 30px;
+    background-color: #505A5B;
+    overflow: auto;
+    padding-left: 5%;
+    padding-top:  10px; 
+    margin-bottom: 7px;
+    color: #DCEDFF;
+}
+
+h2{
+    color: #DCEDFF;
+    position: relative;
+    left: 25px;
+    top: -3px;
+}
+.deleteButton{
+    float: right;
+    width: 50px;
+    height: 95%;
+    border-radius: 10px;
+    background-color: #e60000;
+    border-style: solid; 
+    border-width:  3px;
+    border-color: #DCEDFF;
+    position: relative;
+    top: -4px;
+    right: 10px;
+}
+.deleteButton:hover{
+    background-color:#DCEDFF;
+    border-color: #e60000;
+}
+.completeButton{
+    float: right;
+    width: 50px;
+    height: 95%;
+    border-radius: 10px;
+    background-color: #009933;
+    border-style: solid; 
+    border-width:  3px;
+    border-color: #DCEDFF;
+    position: relative;
+    top: -4px;
+    right: 5px;
+}
+.completeButton:hover{
+    background-color: #DCEDFF;;
+    border-color: #009933;
+}
+.completed{
+    border-style: solid; 
+    border-width:  3px;
+    border-color: #DCEDFF;
+    background-color: #8F91A2;
+    border-radius: 10px;
+    color: #DCEDFF;
+    margin-bottom: 30px;
+}
+
+.completed .deleteButton{
+    right: 5px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>User Number User Name</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+</head>
+<body>
+    <section class="input">
+    <form class = "iForm">
+        UserTag: <input type="text" id='userID'>
+        <input type="button" value="enter" id="submitButton">        
+    </form>
+    </section>
+
+    <div id="output">
+    </div>
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-firestore.js"></script>
+
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyA9WoX8nFG-jJwlfsPxTVZEQaQCs4qQSAU",
+            authDomain: "learning-to-use-firebase-e04fe.firebaseapp.com",
+            databaseURL: "https://learning-to-use-firebase-e04fe.firebaseio.com",
+            projectId: "learning-to-use-firebase-e04fe",
+            storageBucket: "",
+            messagingSenderId: "182900175441"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src='main.js'></script>
+</body>
+</html>
